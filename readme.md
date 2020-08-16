@@ -1,5 +1,9 @@
-# Teecher
+# Teechr
 Aplicação que permite que desenvolvedores e pessoas ligadas a tecnologia mentorem programadores júnior em início de carreira.
 
-![](/telas/Teechr.svg)
+
+<p align="center">
+   ![](/telas/Teechr.svg)
+</p>
+
 
