@@ -3,7 +3,7 @@ Aplicação que permite que desenvolvedores e pessoas ligadas a tecnologia mento
 
 
 <p align="center">
-   ![](/telas/Teechr.svg)
+<img src="./telas/Teechr.svg" alt="Teechr" width="280"/>
 </p>
 
 
