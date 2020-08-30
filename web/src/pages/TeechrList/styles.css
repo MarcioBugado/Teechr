@@ -55,41 +55,6 @@
     color: var(--color-text-in-primary);
 }
 
-#search-teechrs .input-block{
-    position: relative;
-}
-
-#search-teechrs .input-block + .input-block{
-    margin-top:1.4rem;
-}
-
-
-#search-teechrs .input-block label{
-    font-size: 1.4rem;
-}
-
-#search-teechrs .input-block input{
-    width: 100%;
-    height: 4.6rem;
-    border-radius: 0.3rem;
-    background: var(--color-input-background);
-    border: 1px solid var(--color-line-in-white);
-    outline: 0;
-    padding: 0 1.6rem;
-    font: 1.4rem Archivo;
-}
-
-
-#search-teechrs .input-block:focus-within::after{
-    width: calc(100% - 3.2rem);
-    height: 2px;
-    content: "";
-    background: var(--color-text-in-primary);
-    position: absolute;
-    left: 1.6rem;
-    right: 1.6rem;
-    bottom: 0;
-}
 
 
 #page-teechr-list main{
@@ -97,6 +62,27 @@
     width: 90%;
 }
 
+#search-teechrs button{
+    width: 100%;
+    height: 4.5rem;
+    background: var(--color-secundary);
+    color: var(--color-button-text);
+    border: 0;
+    border-radius: 0.2;
+    cursor: pointer;
+    font: 700 1.6rem Archivo;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: background-color 0.2s;
+    margin-top: 2.5rem;
+    
+}
+
+#search-teechrs button:hover{
+    background: var(--color-secundary-dark);
+}
 
 
 @media (min-width: 700px) {
@@ -105,11 +91,34 @@
     }
     #search-teechrs {
       display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
       column-gap: 16px;
       position: absolute;
       bottom: -28px;
     }
+
+    #search-teechrs button{
+        width: 100%;
+        height: 4.5rem;
+        background: var(--color-secundary);
+        color: var(--color-button-text);
+        border: 0;
+        border-radius: 0.2;
+        cursor: pointer;
+        font: 700 1.6rem Archivo;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        transition: background-color 0.2s;
+        margin-top: 2.5rem;
+        
+    }
+
+    #search-teechrs button:hover{
+        background: var(--color-secundary-dark);
+    }
+
     #search-teechrs .input-block + .input-block {
       margin-top: 0;
     }
